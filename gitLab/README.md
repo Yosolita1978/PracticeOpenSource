@@ -6,19 +6,19 @@ Feel free to share this material with anyone learning how to code, but please do
 
 ### Objectives
 - 📣 Learn what Git and GitHub are and the difference between them. 
-- Practice how I can follow a flow and work with strangers in a collaborative tool. a.k.a Open Source
-- Practice how I can help with an issue, send a request, and work with others on GitHub
+- Practice how you can follow a flow and work with strangers in a collaborative tool. a.k.a Open Source
+- Practice how you can help with an issue, send a request, and work with others on GitHub
 - Understand what happens with my local when I'm working collaboratively. 
 
 ### Setup Needed
 
  - For this workshop, we are working in the code environment that GitHub offers in the browser. They are called [CodeSpaces](https://github.com/features/codespaces)
- - If you prefer to watch a video on how to work with CodeSpaces, you can follow this link. You will need a GitHub account to follow this tutorial. (Video in Spanish | Video in English)
+ - If you prefer to watch a video on how to work with CodeSpaces, you can follow this link. You will need a GitHub account to follow this tutorial. (Video in Spanish (TBD) | [Video in English](https://www.loom.com/share/d1a4b9d5ad5d44a299eb8ac20c0f9851?sid=1350253e-8e49-4d29-b3c5-b26574d0b4c5))
 
 # What is Git and GitHub
 Git is a distributed version control system that allows developers to track and manage changes to code. It enables multiple versions of a project to be maintained simultaneously, making it easier to experiment and collaborate without risking the main codebase. 
 
-GitHub, on the other hand, is a cloud-based hosting service that uses Git. It provides a web-based graphical interface and collaboration features such as bug tracking, feature requests, task management, and wikis for projects. While 
+GitHub, on the other hand, is a cloud-based hosting service that uses Git. It provides a web-based graphical interface and collaboration features such as issues tracking, feature requests, task management, and wikis for projects. 
 
 You can explaind the difference between them as Git helps manage the history of code changes locally on your computer, GitHub allows teams to collaborate on projects from anywhere by hosting their Git repositories online and adding extra tools for team collaboration. 
 
@@ -28,13 +28,19 @@ Together, Git and GitHub facilitate coding projects by handling version control 
 ### Connect your CodeSpace to solve an issue. 
 Here's a step-by-step guide a student can follow to connect their CodeSpace to solve an issue:
 
+For a list of issues with this specific project please go to this [link](https://github.com/Yosolita1978/PracticeOpenSource/issues)
+
 **Step 1: Understand the Issue**
 Review the issue details in the project's issue tracker. Make sure you understand what needs to be solved and why it's important. That could also mean asking for clarifications if the issue is not clear or checking if there are any related issues or previous attempts to solve the same problem.
 
 **Step 2: Connect Your CodeSpace**
+![Screenshow CodeSpace](https://raw.githubusercontent.com/Yosolita1978/screenshoots/6e3b96933449ade11932323c90414b6588e28f7e/2024/Workshops/Screen%20Shot%202024-05-06%20at%204.54.30%20PM.png)
 * Access CodeSpaces: Log in to your GitHub account and navigate to the repository where the issue is reported.
-* Open CodeSpaces: Click on the 'CodeSpaces' tab in the repository. If a CodeSpace doesn’t already exist, create a new one by selecting "New CodeSpace".
+* Fork the repository so you will have a local copy of the code in your Github account. Once you are working in your forked repo, you can open the CodeSpace and start working in the terminal that is include with VSCode
+
 * Configure CodeSpace: Ensure that your CodeSpace has the necessary development tools and dependencies installed. This might include software libraries, development servers, or database systems relevant to the project.
+
+![](https://raw.githubusercontent.com/Yosolita1978/screenshoots/6e3b96933449ade11932323c90414b6588e28f7e/2024/Workshops/Screen%20Shot%202024-05-06%20at%204.55.35%20PM.png)
 
 **Step 3: Create a New Branch**
 
@@ -76,3 +82,4 @@ Review the issue details in the project's issue tracker. Make sure you understan
 ## Documentation
 * [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US)
 * [An open source game about learning Git](https://ohmygit.org/)
+* [Introduction to Git Concepts (FreeCodeCamp)](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)
